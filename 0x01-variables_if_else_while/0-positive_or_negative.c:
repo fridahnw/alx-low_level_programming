@@ -1,0 +1,5 @@
+ 
+sitive_or_negative.c:16:10: error: ‘o’ undeclared (first use in this function)
+   16 |  if (n > o)
+      |          ^
+0-positive_or_negative.c:16:10: note: each undeclared identifier is reported only once for each function it appears in:
