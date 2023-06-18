@@ -12,7 +12,7 @@ int main(void)
 {
 	int p, q;
 
-	for (p = 0; p <= 9; p++)
+	for (p = 0; p <= 8; p++)
 	{
 		putchar('0' + p);
 
