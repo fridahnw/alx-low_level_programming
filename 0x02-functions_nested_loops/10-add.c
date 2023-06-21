@@ -5,7 +5,8 @@
  * @a:  integer to be added
  * @b:  integer to be added
  *
- * Return:0 on success
+ * Return: sum of two integers
+ */
 
 int add(int a, int b)
 
