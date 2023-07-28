@@ -12,4 +12,13 @@
 
 list_t *add_node_end(list_t **head, const char *str)
 {
+	list_t *k;
+	k = malloc(sizeof(list_t);
+	if (k == NULL)
+	{
+		return (NULL);
+	}
+	else
+	{
+		while (
 
