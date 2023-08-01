@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * pop_listint - deletes the head node 
+ * pop_listint - deletes the head node
  *
  * @head: beginning
  *
@@ -12,14 +12,14 @@
 int pop_listint(listint_t **head)
 {
 	int i;
-	(void)head;
+	listint_t *j;
 
 	if (*head == NULL)
 	{
 		return (0);
 	}
 	i = (*head)->n;
-	listint_t *j = *head;
+	j = *head;
 	*head = (*head)->next;
 	free(j);
 	return (i);
