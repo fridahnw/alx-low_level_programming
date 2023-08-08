@@ -5,9 +5,9 @@
 /**
  * read_textfile - reads a text file and prints it
  *
- * filename: name of filr
+ * @filename: name of filr
  *
- * size_t letters: length of it
+ * @letters: length of it
  * Return: number of letters
  */
 
